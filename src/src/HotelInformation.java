@@ -20,6 +20,7 @@ public class HotelInformation {
     // 예약 번호 생성에 필요한 hotel 을 불러옴
     Hotel hotel = new Hotel();
 
+    //커밋하기윈한 주석
     public HotelInformation() {
         hotels = new ArrayList<>();
         customers = new ArrayList<>();
