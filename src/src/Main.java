@@ -61,10 +61,10 @@ public class Main {
             String choiceNum = sc.nextLine();
             switch (choiceNum) {
                 case "1":
-                    hotelInform.customerRoom();
+                    hotelInform.getCustomerRoom();
                     break;
                 case "2":
-                    hotelInform.insertCustomerInformation();
+                    hotelInform.setCustomerInformation();
                     break;
                 case "3":
                     hotelInform.customerCancelCheck();
